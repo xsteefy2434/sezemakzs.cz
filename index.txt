@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospoda U Dobré Nálady</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hospoda U Dobré Nálady</h1>
+    <nav>
+      <a href="#menu">Jídelní lístek</a>
+      <a href="#hours">Otevírací doba</a>
+      <a href="#contact">Kontakt</a>
+      <a href="#gallery">Fotky</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Vítejte!</h2>
+    <p>Tradiční česká hospoda s domácí kuchyní a přátelskou atmosférou. Přijďte posedět u dobrého piva a chutného jídla!</p>
+  </section>
+
+  <section id="menu">
+    <h2>Jídelní lístek</h2>
+    <ul>
+      <li>🍖 Vepřový řízek s bramborem – 149 Kč</li>
+      <li>🍲 Guláš s houskovým knedlíkem – 139 Kč</li>
+      <li>🥗 Smažený sýr s hranolkami – 129 Kč</li>
+      <li>🍺 Točená Plzeň 12° – 49 Kč</li>
+    </ul>
+  </section>
+
+  <section id="hours">
+    <h2>Otevírací doba</h2>
+    <table>
+      <tr><td>Pondělí - Pátek:</td><td>11:00 – 23:00</td></tr>
+      <tr><td>Sobota:</td><td>12:00 – 01:00</td></tr>
+      <tr><td>Neděle:</td><td>Zavřeno</td></tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt a adresa</h2>
+    <p>📍 Adresa: U Piva 42, 100 00 Praha</p>
+    <p>📞 Telefon: +420 777 123 456</p>
+    <p>✉️ Email: info@udobrenalady.cz</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Fotky naší hospody</h2>
+    <div class="gallery">
+      <img src="images/hospoda1.jpg" alt="Interiér">
+      <img src="images/hospoda2.jpg" alt="Jídlo">
+      <img src="images/hospoda3.jpg" alt="Pivo">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Hospoda U Dobré Nálady</p>
+  </footer>
+</body>
+</html>
